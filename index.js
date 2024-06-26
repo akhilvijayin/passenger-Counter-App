@@ -20,3 +20,8 @@ function save(){
     countEl.textContent = 0
     count = 0
 }
+
+function clearEntries(){
+    console.log("Cleared")
+    saveEl.textContent = "Previous Entries are :"
+}
