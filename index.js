@@ -21,7 +21,7 @@ function save(){
     count = 0
 }
 
-function clearEntries(){
+function refreshEntries(){
     console.log("Cleared")
     saveEl.textContent = "Previous Entries are :"
 }
