@@ -14,7 +14,7 @@ let saveData = document.getElementById("save-btn")
 let saveEl = document.getElementById("save-el")
 let entries = 0
 function save(){
-    saveEl.textContent += count + " - "
+    saveEl.textContent += " " + count + " - "
     entries = saveEl.textContent
     console.log(entries + "  -  ")
     countEl.textContent = 0
@@ -23,5 +23,5 @@ function save(){
 
 function refreshEntries(){
     console.log("Cleared")
-    saveEl.textContent = "Previous Entries are :"
+    saveEl.textContent = "Previous Entries are : "
 }
